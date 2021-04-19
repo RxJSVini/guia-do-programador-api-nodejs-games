@@ -1,0 +1,12 @@
+#GET http://127.0.0.1:8090/games HTTP/1.1
+#User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)
+#Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ2aW5pY2l1cy5wZXJlaXJhQHByb2N
+
+POST localhost:8090/games/users/auth HTTP/1.1
+Content-Type: application/json
+{
+	
+	"email":"viniciuspoa2@hotmail.com",
+	"password":"12345"
+
+}
